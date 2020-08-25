@@ -1,4 +1,3 @@
-# Example Repository
-This is a sample repo. Hello coders !
+Expert advisor based on Object Oriented Programming 
 
-This is a second change.
+Patterns and Indicator as Signal approach

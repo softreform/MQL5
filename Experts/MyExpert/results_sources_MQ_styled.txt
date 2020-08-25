@@ -1,0 +1,165 @@
+2012.05.30 18:56:52	matr_mul_2dim (EURUSD,H1)	CPU: time = 10.530 s.
+2012.05.30 18:56:41	matr_mul_2dim (EURUSD,H1)	ROWS1 = 1000; COLSROWS = 1000; COLS2 = 1000
+2012.05.30 18:56:41	matr_mul_2dim (EURUSD,H1)	=======================================
+
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	________________________
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	sum( 48,308 ) = 2.37816453;    thirdCPU[ 48,308 ] = 2.37816453;    buf[ 48,308 ] = 2.37816477
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	sum( 152,46 ) = 0.31598741;    thirdCPU[ 152,46 ] = 0.31598741;    buf[ 152,46 ] = 0.31598723
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	sum( 605,890 ) = 0.01341026;    thirdCPU[ 605,890 ] = 0.01341026;    buf[ 605,890 ] = 0.01341012
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	sum( 1004,220 ) = -2.26714945;    thirdCPU[ 1004,220 ] = -2.26714945;    buf[ 1004,220 ] = -2.26714945
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	sum( 292,585 ) = 2.07772112;    thirdCPU[ 292,585 ] = 2.07772112;    buf[ 292,585 ] = 2.07772136
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	sum( 480,503 ) = 1.02237535;    thirdCPU[ 480,503 ] = 1.02237535;    buf[ 480,503 ] = 1.02237558
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	sum( 778,299 ) = -0.57778263;    thirdCPU[ 778,299 ] = -0.57778263;    buf[ 778,299 ] = -0.57778227
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	sum( 859,524 ) = 0.54342651;    thirdCPU[ 859,524 ] = 0.54342651;    buf[ 859,524 ] = 0.54342657
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	sum( 180,876 ) = -1.73622525;    thirdCPU[ 180,876 ] = -1.73622525;    buf[ 180,876 ] = -1.73622441
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	sum( 4,355 ) = -2.55631781;    thirdCPU[ 4,355 ] = -2.55631781;    buf[ 4,355 ] = -2.55631781
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	CPUTime / GPUTotalTime = 9.281
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	OpenCL total: time = 1.264 sec.
+2012.05.30 19:01:47	matr_mul_1dim (EURUSD,H1)	read = 1196445 elements
+2012.05.30 19:01:46	matr_mul_1dim (EURUSD,H1)	CPUTime = 11.731
+2012.05.30 19:01:34	matr_mul_1dim (EURUSD,H1)	1st OCL martices mul:  device = 1;      ROWS1 = 1245; COLSROWS = 687; COLS2 = 961
+2012.05.30 19:01:34	matr_mul_1dim (EURUSD,H1)	=======================================
+
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	________________________
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	sum( 117,47 ) = 1.53167939;    thirdCPU[ 117,47 ] = 1.53167939;    buf[ 117,47 ] = 1.53167868
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	sum( 481,130 ) = -6.81022120;    thirdCPU[ 481,130 ] = -6.81022120;    buf[ 481,130 ] = -6.81022167
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	sum( 172,68 ) = 0.97835755;    thirdCPU[ 172,68 ] = 0.97835755;    buf[ 172,68 ] = 0.97835720
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	sum( 282,158 ) = 0.21202828;    thirdCPU[ 282,158 ] = 0.21202828;    buf[ 282,158 ] = 0.21202935
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	sum( 487,415 ) = 2.26895237;    thirdCPU[ 487,415 ] = 2.26895237;    buf[ 487,415 ] = 2.26895285
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	sum( 100,250 ) = -2.04586434;    thirdCPU[ 100,250 ] = -2.04586434;    buf[ 100,250 ] = -2.04586530
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	sum( 98,723 ) = -0.97623676;    thirdCPU[ 98,723 ] = -0.97623676;    buf[ 98,723 ] = -0.97623718
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	sum( 363,65 ) = 2.37922716;    thirdCPU[ 363,65 ] = 2.37922716;    buf[ 363,65 ] = 2.37922859
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	sum( 284,768 ) = -5.82492924;    thirdCPU[ 284,768 ] = -5.82492924;    buf[ 284,768 ] = -5.82492876
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	sum( 357,625 ) = 2.83606529;    thirdCPU[ 357,625 ] = 2.83606529;    buf[ 357,625 ] = 2.83606529
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	CPUTime / GPUTotalTime = 5.521
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	OpenCL total: time = 1.701 sec.
+2012.05.30 19:04:04	matr_mul_1dim_coalesced (EURUSD,H1)	read = 444318 elements
+2012.05.30 19:04:02	matr_mul_1dim_coalesced (EURUSD,H1)	CPUTime = 9.391
+2012.05.30 19:03:53	matr_mul_1dim_coalesced (EURUSD,H1)	1st OCL martices mul:  device = 1;      ROWS1 = 497; COLSROWS = 1765; COLS2 = 894
+2012.05.30 19:03:53	matr_mul_1dim_coalesced (EURUSD,H1)	=======================================
+
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	________________________
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	sum( 779,648 ) = 0.81925714;    thirdCPU[ 779,648 ] = 0.81925714;    buf[ 779,648 ] = 0.81925726
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	sum( 149,148 ) = -1.79435289;    thirdCPU[ 149,148 ] = -1.79435289;    buf[ 149,148 ] = -1.79435313
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	sum( 394,590 ) = 0.63593620;    thirdCPU[ 394,590 ] = 0.63593620;    buf[ 394,590 ] = 0.63593656
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	sum( 875,663 ) = -2.66998720;    thirdCPU[ 875,663 ] = -2.66998720;    buf[ 875,663 ] = -2.66998768
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	sum( 1135,256 ) = 1.12405992;    thirdCPU[ 1135,256 ] = 1.12405992;    buf[ 1135,256 ] = 1.12405992
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	sum( 186,563 ) = -1.22082877;    thirdCPU[ 186,563 ] = -1.22082877;    buf[ 186,563 ] = -1.22082853
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	sum( 240,655 ) = 2.66968012;    thirdCPU[ 240,655 ] = 2.66968012;    buf[ 240,655 ] = 2.66968012
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	sum( 1130,279 ) = -0.53910577;    thirdCPU[ 1130,279 ] = -0.53910577;    buf[ 1130,279 ] = -0.53910571
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	sum( 1120,169 ) = 0.56696737;    thirdCPU[ 1120,169 ] = 0.56696737;    buf[ 1120,169 ] = 0.56696743
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	sum( 1061,803 ) = -0.35480845;    thirdCPU[ 1061,803 ] = -0.35480845;    buf[ 1061,803 ] = -0.35480839
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	CPUTime / GPUTotalTime = 19.115
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	OpenCL total: time = 0.515 sec.
+2012.05.30 19:06:00	matr_mul_sum_local (EURUSD,H1)	read = 1428746 elements
+2012.05.30 19:05:59	matr_mul_sum_local (EURUSD,H1)	CPUTime = 9.844
+2012.05.30 19:05:49	matr_mul_sum_local (EURUSD,H1)	1st OCL martices mul:  device = 1;      ROWS1 = 1286; COLSROWS = 572; COLS2 = 1111
+2012.05.30 19:05:49	matr_mul_sum_local (EURUSD,H1)	=======================================
+
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	________________________
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	sum( 240,28 ) = -1.70628953;    thirdCPU[ 240,28 ] = -1.70628953;    buf[ 240,28 ] = -1.70628929
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	sum( 562,179 ) = 0.62505841;    thirdCPU[ 562,179 ] = 0.62505841;    buf[ 562,179 ] = 0.62505877
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	sum( 125,74 ) = 0.21898331;    thirdCPU[ 125,74 ] = 0.21898331;    buf[ 125,74 ] = 0.21898566
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	sum( 284,276 ) = 1.14864659;    thirdCPU[ 284,276 ] = 1.14864659;    buf[ 284,276 ] = 1.14864826
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	sum( 466,84 ) = 2.76434207;    thirdCPU[ 466,84 ] = 2.76434207;    buf[ 466,84 ] = 2.76434231
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	sum( 432,116 ) = -4.95344543;    thirdCPU[ 432,116 ] = -4.95344543;    buf[ 432,116 ] = -4.95344687
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	sum( 135,93 ) = -4.87017679;    thirdCPU[ 135,93 ] = -4.87017679;    buf[ 135,93 ] = -4.87017679
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	sum( 497,100 ) = 8.00453854;    thirdCPU[ 497,100 ] = 8.00453854;    buf[ 497,100 ] = 8.00453949
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	sum( 507,213 ) = -2.40541506;    thirdCPU[ 507,213 ] = -2.40541506;    buf[ 507,213 ] = -2.40541482
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	sum( 266,189 ) = 2.00020528;    thirdCPU[ 266,189 ] = 2.00020528;    buf[ 266,189 ] = 2.00020576
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	CPUTime / GPUTotalTime = 28.408
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	OpenCL total: time = 0.218 sec.
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	read = 234225 elements
+2012.05.30 19:07:40	matr_mul_row_calc (EURUSD,H1)	CPUTime = 6.193
+2012.05.30 19:07:33	matr_mul_row_calc (EURUSD,H1)	1st OCL martices mul:  device = 1;      ROWS1 = 675; COLSROWS = 2189; COLS2 = 347
+2012.05.30 19:07:33	matr_mul_row_calc (EURUSD,H1)	=======================================
+
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	________________________
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	sum( 9,573 ) = 1.43773127;    thirdCPU[ 9,573 ] = 1.43773127;    buf[ 9,573 ] = 1.43773186
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	sum( 165,66 ) = 5.65158081;    thirdCPU[ 165,66 ] = 5.65158081;    buf[ 165,66 ] = 5.65158176
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	sum( 10,704 ) = -1.97761428;    thirdCPU[ 10,704 ] = -1.97761428;    buf[ 10,704 ] = -1.97761452
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	sum( 38,312 ) = -2.75464106;    thirdCPU[ 38,312 ] = -2.75464106;    buf[ 38,312 ] = -2.75464153
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	sum( 215,452 ) = -3.80310726;    thirdCPU[ 215,452 ] = -3.80310726;    buf[ 215,452 ] = -3.80310726
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	sum( 45,548 ) = 2.44083405;    thirdCPU[ 45,548 ] = 2.44083405;    buf[ 45,548 ] = 2.44083238
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	sum( 29,649 ) = -4.91659260;    thirdCPU[ 29,649 ] = -4.91659260;    buf[ 29,649 ] = -4.91659164
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	sum( 307,159 ) = 2.76830149;    thirdCPU[ 307,159 ] = 2.76830149;    buf[ 307,159 ] = 2.76830173
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	sum( 157,135 ) = -6.68454123;    thirdCPU[ 157,135 ] = -6.68454123;    buf[ 157,135 ] = -6.68454075
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	sum( 140,57 ) = -1.05092001;    thirdCPU[ 140,57 ] = -1.05092001;    buf[ 140,57 ] = -1.05091941
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	CPUTime / GPUTotalTime = 10.483
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	OpenCL total: time = 0.375 sec.
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	read = 262614 elements
+2012.05.30 19:09:13	matr_mul_row_in_private (EURUSD,H1)	CPUTime = 3.931
+2012.05.30 19:09:09	matr_mul_row_in_private (EURUSD,H1)	1st OCL martices mul:  device = 1;      ROWS1 = 346; COLSROWS = 1261; COLS2 = 759
+2012.05.30 19:09:09	matr_mul_row_in_private (EURUSD,H1)	=======================================
+
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	________________________
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	sum( 204,464 ) = 1.02035534;    thirdCPU[ 204,464 ] = 1.02035534;    buf[ 204,464 ] = 1.02035522
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	sum( 1420,292 ) = -1.37027371;    thirdCPU[ 1420,292 ] = -1.37027371;    buf[ 1420,292 ] = -1.37027383
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	sum( 712,343 ) = 2.74257851;    thirdCPU[ 712,343 ] = 2.74257851;    buf[ 712,343 ] = 2.74257851
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	sum( 824,197 ) = 2.16557097;    thirdCPU[ 824,197 ] = 2.16557097;    buf[ 824,197 ] = 2.16557097
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	sum( 1134,381 ) = 0.07638468;    thirdCPU[ 1134,381 ] = 0.07638468;    buf[ 1134,381 ] = 0.07638436
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	sum( 987,415 ) = -0.62944108;    thirdCPU[ 987,415 ] = -0.62944108;    buf[ 987,415 ] = -0.62944126
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	sum( 1551,120 ) = 0.78264159;    thirdCPU[ 1551,120 ] = 0.78264159;    buf[ 1551,120 ] = 0.78264195
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	sum( 570,148 ) = -0.83056444;    thirdCPU[ 570,148 ] = -0.83056444;    buf[ 570,148 ] = -0.83056432
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	sum( 1394,243 ) = 0.28352997;    thirdCPU[ 1394,243 ] = 0.28352997;    buf[ 1394,243 ] = 0.28352985
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	sum( 1107,5 ) = -1.28663397;    thirdCPU[ 1107,5 ] = -1.28663397;    buf[ 1107,5 ] = -1.28663397
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	CPUTime / GPUTotalTime = 1.886
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	OpenCL total: time = 2.076 sec.
+2012.05.30 19:10:57	matr_mul_col_local (EURUSD,H1)	read = 1090195 elements
+2012.05.30 19:10:55	matr_mul_col_local (EURUSD,H1)	CPUTime = 3.915
+2012.05.30 19:10:51	matr_mul_col_local (EURUSD,H1)	1st OCL martices mul:  device = 1;      ROWS1 = 1685; COLSROWS = 298; COLS2 = 647
+2012.05.30 19:10:51	matr_mul_col_local (EURUSD,H1)	=======================================
+
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	________________________
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	sum( 732,1213 ) = 0.09300251;    thirdCPU[ 732,1213 ] = 0.09300251;    buf[ 732,1213 ] = 0.09300156
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	sum( 297,1338 ) = 0.35694581;    thirdCPU[ 297,1338 ] = 0.35694581;    buf[ 297,1338 ] = 0.35694617
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	sum( 240,1098 ) = -4.34268475;    thirdCPU[ 240,1098 ] = -4.34268475;    buf[ 240,1098 ] = -4.34268570
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	sum( 533,300 ) = 1.66687381;    thirdCPU[ 533,300 ] = 1.66687381;    buf[ 533,300 ] = 1.66687405
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	sum( 780,1027 ) = 3.08060789;    thirdCPU[ 780,1027 ] = 3.08060789;    buf[ 780,1027 ] = 3.08060884
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	sum( 211,65 ) = -2.64189506;    thirdCPU[ 211,65 ] = -2.64189506;    buf[ 211,65 ] = -2.64189553
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	sum( 520,1117 ) = 0.24547766;    thirdCPU[ 520,1117 ] = 0.24547766;    buf[ 520,1117 ] = 0.24547794
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	sum( 453,160 ) = 0.11009751;    thirdCPU[ 453,160 ] = 0.11009751;    buf[ 453,160 ] = 0.11009750
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	sum( 479,245 ) = 0.66838902;    thirdCPU[ 479,245 ] = 0.66838902;    buf[ 479,245 ] = 0.66838932
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	sum( 448,681 ) = 0.04353265;    thirdCPU[ 448,681 ] = 0.04353265;    buf[ 448,681 ] = 0.04353291
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	CPUTime / GPUTotalTime = 17.362
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	OpenCL total: time = 0.390 sec.
+2012.05.30 19:14:21	matr_mul_vect (EURUSD,H1)	read = 1217748 elements
+2012.05.30 19:14:20	matr_mul_vect (EURUSD,H1)	CPUTime = 6.771
+2012.05.30 19:14:13	matr_mul_vect (EURUSD,H1)	1st OCL martices mul:  device = 1;      ROWS1 = 798; COLSROWS = 468; COLS2 = 1526
+2012.05.30 19:14:13	matr_mul_vect (EURUSD,H1)	=======================================
+
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	________________________
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	sum( 42,541 ) = 2.69979382;    thirdCPU[ 42,541 ] = 2.69979382;    buf[ 42,541 ] = 2.69979358
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	sum( 619,318 ) = -1.12569487;    thirdCPU[ 619,318 ] = -1.12569487;    buf[ 619,318 ] = -1.12569475
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	sum( 608,506 ) = -3.28944325;    thirdCPU[ 608,506 ] = -3.28944325;    buf[ 608,506 ] = -3.28944135
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	sum( 395,308 ) = 3.27288461;    thirdCPU[ 395,308 ] = 3.27288461;    buf[ 395,308 ] = 3.27288389
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	sum( 137,454 ) = -0.10234989;    thirdCPU[ 137,454 ] = -0.10234989;    buf[ 137,454 ] = -0.10235135
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	sum( 346,531 ) = 5.54641247;    thirdCPU[ 346,531 ] = 5.54641247;    buf[ 346,531 ] = 5.54641342
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	sum( 187,458 ) = 0.95345187;    thirdCPU[ 187,458 ] = 0.95345187;    buf[ 187,458 ] = 0.95345205
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	sum( 113,47 ) = -5.90170336;    thirdCPU[ 113,47 ] = -5.90170336;    buf[ 113,47 ] = -5.90170383
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	sum( 449,170 ) = -0.16978151;    thirdCPU[ 449,170 ] = -0.16978151;    buf[ 449,170 ] = -0.16978189
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	sum( 495,364 ) = 2.21440649;    thirdCPU[ 495,364 ] = 2.21440649;    buf[ 495,364 ] = 2.21440625
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	CPUTime / GPUTotalTime = 28.281
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	OpenCL total: time = 0.203 sec.
+2012.05.30 19:15:36	matr_mul_vect_v2 (EURUSD,H1)	read = 370818 elements
+2012.05.30 19:15:35	matr_mul_vect_v2 (EURUSD,H1)	CPUTime = 5.741
+2012.05.30 19:15:30	matr_mul_vect_v2 (EURUSD,H1)	1st OCL martices mul:  device = 1;      ROWS1 = 654; COLSROWS = 1288; COLS2 = 567
+2012.05.30 19:15:30	matr_mul_vect_v2 (EURUSD,H1)	=======================================
+
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	________________________
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	sum( 1176,235 ) = -3.43427038;    thirdCPU[ 1176,235 ] = -3.43427038;    buf[ 1176,235 ] = -3.43427086
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	sum( 246,75 ) = -3.72355294;    thirdCPU[ 246,75 ] = -3.72355294;    buf[ 246,75 ] = -3.72355175
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	sum( 18,12 ) = 3.76980424;    thirdCPU[ 18,12 ] = 3.76980424;    buf[ 18,12 ] = 3.76980352
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	sum( 1159,88 ) = -0.46180463;    thirdCPU[ 1159,88 ] = -0.46180463;    buf[ 1159,88 ] = -0.46180445
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	sum( 419,189 ) = -1.66284084;    thirdCPU[ 419,189 ] = -1.66284084;    buf[ 419,189 ] = -1.66284394
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	sum( 156,62 ) = -0.86451131;    thirdCPU[ 156,62 ] = -0.86451131;    buf[ 156,62 ] = -0.86451161
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	sum( 872,165 ) = -5.97695971;    thirdCPU[ 872,165 ] = -5.97695971;    buf[ 872,165 ] = -5.97696114
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	sum( 1028,175 ) = -0.98745066;    thirdCPU[ 1028,175 ] = -0.98745066;    buf[ 1028,175 ] = -0.98745060
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	sum( 211,152 ) = -2.42413640;    thirdCPU[ 211,152 ] = -2.42413640;    buf[ 211,152 ] = -2.42413568
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	sum( 190,234 ) = 3.26746106;    thirdCPU[ 190,234 ] = 3.26746106;    buf[ 190,234 ] = 3.26746368
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	CPUTime / GPUTotalTime = 25.688
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	OpenCL total: time = 0.218 sec.
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	read = 318630 elements
+2012.05.30 19:20:13	matr_mul_vect_v3 (EURUSD,H1)	CPUTime = 5.600
+2012.05.30 19:20:07	matr_mul_vect_v3 (EURUSD,H1)	1st OCL martices mul:  device = 1;      ROWS1 = 1235; COLSROWS = 1448; COLS2 = 258
+2012.05.30 19:20:07	matr_mul_vect_v3 (EURUSD,H1)	=======================================

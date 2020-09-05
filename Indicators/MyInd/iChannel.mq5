@@ -3,7 +3,7 @@
 //|                                                            @nick |
 //|                                             https://www.mql5.com |
 //+------------------------------------------------------------------+
-#property copyright "@nick"
+#property copyright "@RevMT5"
 #property link      "https://www.mql5.com"
 #property version   "1.00"
 #property indicator_chart_window

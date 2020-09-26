@@ -1,5 +1,5 @@
 #gets the File To Compile as an external parameter... Defaults to a Test file...
-Param( $FileToCompile = "E:\Work\TorMT5\MQL5\Experts\test.mq5")
+Param( $FileToCompile = "E:\Work\RevMT5\MQL5\Experts\test.mq5")
 
 #cleans the terminal screen and sets the log file name...
 Clear-Host
@@ -19,7 +19,7 @@ if ($FileToCompile.Contains(" ")) {
 Get-Process -Name terminal64 -ErrorAction SilentlyContinue | Where-Object {$_.Id -gt 0} | Stop-Process
 
 #fires up the Metaeditor compiler...
-& "E:\Work\TorMT5\metaeditor64.exe" /portable /compile:"$FileToCompile" /log:"$LogFile" /inc:"E:\Work\TorMT5\MQL5" | Out-Null
+& "E:\Work\RevMT5\metaeditor64.exe" /portable /compile:"$FileToCompile" /log:"$LogFile" /inc:"E:\Work\RevMT5\MQL5" | Out-Null
 
 #get some clean real state and tells the user what is being compiled (just the file name, no path)...
 "";"";"";"";""
@@ -44,5 +44,7 @@ $Log | ForEach-Object {
      }
 }
 
+Get-ChildItem -Path $LogFile -Include *.log -File -Recurse | foreach { $_.Delete()}
+
 #get the MT Terminal back if all went well...
-if ( $WhichColor -eq "Green") { & "E:\Work\TorMT5\metaeditor64.exe" /portable}
+if ( $WhichColor -eq "Green") { & "E:\Work\RevMT5\metaeditor64.exe" /portable}

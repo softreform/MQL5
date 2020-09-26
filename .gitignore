@@ -3,6 +3,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode
 
+### MQL5 Code ###
+*.log
+*.ps1
+*.dat
+*.chr
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json

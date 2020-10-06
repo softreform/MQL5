@@ -8,6 +8,7 @@
 *.ps1
 *.dat
 *.chr
+*.dat
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json

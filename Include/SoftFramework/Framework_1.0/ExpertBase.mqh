@@ -6,6 +6,7 @@
 
 */
 #include "CommonBase.mqh"
+#include "Signals/SignalBase.mqh"
 
 class CExpertBase : public CCommonBase
 {
@@ -17,6 +18,9 @@ protected:  // Variables
     double          mVolume;
     datetime        mLastBarTime;
     datetime        mBarTime;
+
+    CSignalBase     *mEntrySignal;
+    CSignalBase     *mExitSignal;
 
 protected:  // Function
     virtual bool    LoopMain(bool newBar, bool firstTime);
@@ -42,6 +46,11 @@ public: // Default properties
     virtual void    SetVolume(double volume)        { mVolume       = volume;   }
     virtual void    SetTradeComment(string comment) { mTradeComment = comment;  }
     virtual void    SetMagic(int magicNumber)       { mMagicNumber  = magicNumber;  }
+
+public: // Setup
+
+    virtual void    AddEntrySignal(CSignalBase *signal) {   mEntrySignal = signal;  }
+    virtual void    AddExitSignal(CSignalBase *signal)  {   mExitSignal  = signal;  }
 
 public: // Event handlers
 
@@ -104,6 +113,38 @@ bool    CExpertBase::LoopMain(bool newBar, bool firstTime) {
 
     if(!newBar)     return(true);
     if(firstTime)   return(true);
+
+    // Update the signals
+    if ( mEntrySignal!=NULL) mEntrySignal.UpdateSignal();
+    if ( mEntrySignal!=mExitSignal) {
+        if (mExitSignal!=NULL)  mExitSignal.UpdateSignal();
+    }
+
+    // Should any trades be closed
+    if (mExitSignal!=NULL) {
+        if ( mExitSignal.ExitSignal()==OFX_SIGNAL_BOTH) {
+            // Close all
+        } else
+        if ( mExitSignal.ExitSignal()==OFX_SIGNAL_BUY ) {
+            // Close buy trades
+        } else
+        if ( mExitSignal.ExitSignal()==OFX_SIGNAL_SELL) {
+            // Close sell trades
+        }    
+    }
+
+    // Should any trades be opened
+    if (mEntrySignal!=NULL) {
+        if ( mEntrySignal.EntrySignal()==OFX_SIGNAL_BOTH) {
+            // Open both sides
+        } else
+        if ( mEntrySignal.EntrySignal()==OFX_SIGNAL_BUY ) {
+            // Open buy trades
+        } else
+        if ( mEntrySignal.EntrySignal()==OFX_SIGNAL_SELL) {
+            // Open sell trades
+        }    
+    }    
 
     return(true);
     

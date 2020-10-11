@@ -16,25 +16,46 @@ input int       InpMagicNumber    = 20201003;   // Magic Number
 
 #define         CExpert   CExpertBase
 CExpert         *Expert;
+
+// Signals, use the child class name if applicable
+CSignalBase     *EntrySignal;
+CSignalBase     *ExitSignal;
+
+// Indicators
+CIndicatorBase  *Indicator1;
 //+------------------------------------------------------------------+
 //| Expert initialization function                                   |
 //+------------------------------------------------------------------+
-int OnInit()
-  {
-//--- create timer
-   EventSetTimer(60);
+int OnInit() {
+  //--- create timer
+  EventSetTimer(60);
 
-   Expert     = new CExpert;
+  Expert     = new CExpert;
 
 
-   Expert.SetVolume(InpVolume);
-   Expert.SetTradeComment(InpComment);
-   Expert.SetMagic(InpMagicNumber);
+  Expert.SetVolume(InpVolume);
+  Expert.SetTradeComment(InpComment);
+  Expert.SetMagic(InpMagicNumber);
 
-   int  result  = Expert.OnInit();
-//---
-   return(result);
-  }
+  // Set up the indicators
+  Indicator1    = new CIndicatorBase();
+
+  // Set up the signals
+  EntrySignal   = new CSignalBase();
+  EntrySignal.AddIndicator(Indicator1, 0);
+
+  ExitSignal    = new CSignalBase();
+  ExitSignal.AddIndicator(Indicator1, 0);
+
+  // Add the signals to the exper
+  Expert.AddEntrySignal(EntrySignal);
+  Expert.AddExitSignal(ExitSignal);
+
+  int  result  = Expert.OnInit();
+  //---
+  return(result);
+
+}
 //+------------------------------------------------------------------+
 //| Expert deinitialization function                                 |
 //+------------------------------------------------------------------+
@@ -42,7 +63,12 @@ void OnDeinit(const int reason)
   {
 //--- destroy timer
    EventKillTimer();
+   
    delete   Expert;
+   delete   ExitSignal;
+   delete   EntrySignal;
+   delete   Indicator1;
+
    return;
    
   }

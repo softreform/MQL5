@@ -11,6 +11,7 @@ Profiles/*
 *.dat
 *.chr
 *.dat
+*.ex5
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json

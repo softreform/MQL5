@@ -4,7 +4,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode
 
 ### MQL5 Code ###
-experts.dat
+Logs/*
 Profiles/*
 *.log
 *.ps1

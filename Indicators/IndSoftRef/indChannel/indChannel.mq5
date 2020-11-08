@@ -119,7 +119,7 @@ int OnCalculate(const int rates_total,
    for (int i=limit-1; i>=0; i--)
    {
     // For Testing pourpose  
-    if (i == 20 ) {
+    if (i == 50 ) {
       indBuyBuffer[i]         = NULL;
     }
     indHiBuffer[i]          = ContractChannel.High(i);

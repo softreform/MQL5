@@ -19,7 +19,7 @@ private:
 
 protected:	// member variables
 
-   int	           mPeriods;
+   int	              mPeriods;
    
    int                 mATRPeriod;
    double              mAtrMultiplier;
@@ -29,6 +29,7 @@ protected:	// member variables
    
    int                 mMAHandle;
    int                 mATRHandle;
+   int                 mRSIHandle;
    
    AndCondition*       mlongCondition;
    AndCondition*       mshortCondition;    
@@ -303,4 +304,22 @@ bool EntryShortCondition::IsPass(const int period,const datetime date)
             return price0 <= priceInd && price1 > priceInd;
       }
       return false;
+}
+
+double	CContractChannel::GetData(const int buffer_num,const int index) {
+
+	double	value	=	0;
+#ifdef __MQL4__
+	value	=	iRSI(mSymbol, mTimeframe, mPeriods, mAppliedPrice, index);
+#endif
+
+#ifdef __MQL5__
+	double	bufferData[];
+	ArraySetAsSeries(bufferData, true);
+	int cnt	=	CopyBuffer(mRSIHandle, buffer_num, index, 1, bufferData);
+	if (cnt>0) value	=	bufferData[0];
+#endif
+
+	return(value);
+	
 }

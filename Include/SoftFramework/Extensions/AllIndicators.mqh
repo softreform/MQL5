@@ -4,7 +4,7 @@
 	Copyright 2020, Soft Reform 
 	https://www.mql5.com 
   
-	Auto Generated at 2020-10-28 09:18:43 
+	Auto Generated at 2020-10-31 14:06:59 
   
 */ 
   
@@ -15,3 +15,4 @@
 #include "Indicators/IndicatorATR.mqh" 
 #include "Indicators/IndicatorMA.mqh" 
 #include "Indicators/IndicatorRSI.mqh" 
+#include "Indicators/OreIndicatorRSI.mqh" 
